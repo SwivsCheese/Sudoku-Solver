@@ -1,0 +1,34 @@
+const chai = require("chai");
+const chaiHttp = require('chai-http');
+const assert = chai.assert;
+const server = require('../server');
+
+chai.use(chaiHttp);
+
+suite('Functional Tests', () => {
+  test("solve puzzle with valid puzzle string POST", function(done){
+    chai
+    .request(server)
+    .post("/api/solve")
+    .send({ puzzle: '5..91372.3...8.5.9.9.25..8.68.47.23...95..46.7.4.....5.2.......4..8916..85.72...3' })
+    .end(function(err, res){
+      let correct = '568913724342687519197254386685479231219538467734162895926345178473891652851726943';
+      assert.equal(res.body.solution, correct);
+      done();
+    });
+  });
+
+  test("solve puzzle with missing puzzle string POST", function(done){
+    chai
+    .request(server)
+    .post("/api/solve")
+    .send({ puzzle: '' })
+    .end(function(err, res){
+      console.log(res.body);
+      assert.equal(res.body.solution, err);
+      done();
+    });
+  });
+
+});
+

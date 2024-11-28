@@ -1,0 +1,25 @@
+2024-11-06 07:18:07.132 [info] 
+
+
+
+
+2024-11-06 07:18:07.154 [info] Extension host agent started.
+2024-11-06 07:18:07.310 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-11-06 07:18:07.310 [info] Extension 'github.vscode-pull-request-github' v0.98.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2024-11-06 07:18:10.967 [info] [192.168.194.137][6c9c8a13][ManagementConnection] New connection established.
+2024-11-06 07:18:11.111 [info] [192.168.179.202][f7eb74c2][ExtensionHostConnection] New connection established.
+2024-11-06 07:18:11.170 [info] [192.168.179.202][f7eb74c2][ExtensionHostConnection] <134> Launched Extension Host Process.
+2024-11-06 07:18:17.708 [info] Getting Manifest... github.vscode-pull-request-github
+2024-11-06 07:18:18.871 [info] Installing extension: github.vscode-pull-request-github {"productVersion":{"version":"1.95.0","date":"2024-10-31T15:10:05.505Z"},"pinned":false,"operation":3,"isApplicationScoped":true,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/workspace/.vscode-remote/extensions/extensions.json","external":"file:///workspace/.vscode-remote/extensions/extensions.json","path":"/workspace/.vscode-remote/extensions/extensions.json","scheme":"file"}}
+2024-11-06 07:18:20.846 [error] Could not load vsce-sign module Cannot find package 'node-ovsx-sign' imported from /ide/out/server-main.js
+2024-11-06 07:18:20.846 [info] Extension signature verification is not done: github.vscode-pull-request-github
+2024-11-06 07:18:20.910 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.100.0-universal: github.vscode-pull-request-github
+2024-11-06 07:18:20.916 [info] Renamed to /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.100.0-universal
+2024-11-06 07:18:20.927 [info] Marked extension as uninstalled github.vscode-pull-request-github-0.98.0-universal
+2024-11-06 07:18:20.932 [info] Extension installed successfully: github.vscode-pull-request-github file:///workspace/.vscode-remote/extensions/extensions.json
+2024-11-06 10:16:42.007 [info] [192.168.194.137][6c9c8a13][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-06 10:16:45.175 [info] [192.168.179.202][0c05204e][ManagementConnection] New connection established.
+2024-11-06 10:16:45.235 [info] [192.168.194.137][4226c8d3][ExtensionHostConnection] New connection established.
+2024-11-06 10:16:45.241 [info] [192.168.194.137][4226c8d3][ExtensionHostConnection] <13802> Launched Extension Host Process.
+2024-11-06 10:21:45.373 [info] [192.168.179.202][f7eb74c2][ExtensionHostConnection] <134> Extension Host Process exited with code: 0, signal: null.
+2024-11-06 10:29:16.142 [info] [192.168.179.202][0c05204e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

@@ -1,0 +1,15 @@
+2024-11-15 19:53:11.546 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-11-15 19:53:11.546 [info] Activation> Extension version: 0.100.1
+2024-11-15 19:53:12.853 [info] Looking for git repository
+2024-11-15 19:53:12.853 [info] Found 0 repositories during activation
+2024-11-15 19:53:12.853 [info] Git repository found, initializing review manager and pr tree view.
+2024-11-15 19:53:12.857 [info] Registering git provider
+2024-11-15 19:53:12.857 [info] Review+0> Validate state in progress
+2024-11-15 19:53:12.857 [info] Review+0> Validating state...
+2024-11-15 19:53:12.971 [info] Found GitHub remote for folder /workspace/boilerplate-project-sudoku-solver
+2024-11-15 19:53:13.425 [info] Trying to use globalState for assignableUsers.
+2024-11-15 19:53:13.827 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-11-15 19:53:14.028 [info] Using globalState assignableUsers for 1.
+2024-11-15 19:53:14.751 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-11-15 19:53:32.875 [info] Repo state for file:///workspace/boilerplate-project-sudoku-solver changed.
+2024-11-15 19:53:32.875 [info] Repo file:///workspace/boilerplate-project-sudoku-solver has already been setup.
